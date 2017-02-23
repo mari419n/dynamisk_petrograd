@@ -1,0 +1,34 @@
+    body {
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+.navbar-nav {
+    float: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+.nav_forside {
+    font-size: 1em;
+    word-spacing: 2em;
+    letter-spacing: 0.3em;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 3;
+    text-align: center;
+    margin: 0 auto;
+}
+.navbar-nav li a {
+    line-height: 50px;
+    margin-bottom: -0.2vw;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+h3,
+h5,
+h1,
+p {
+    text-align: center;
