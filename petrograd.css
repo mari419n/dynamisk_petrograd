@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: antiquewhite !important;
+    background-color: white!important;
 }
 .space {
     width: 5vw;
@@ -10,19 +10,24 @@ body {
 img {
     width: 100%;
 }
-h3,
-h5,
 h1,
-p {
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
 }
 .nav {
     font-size: 1em;
-    letter-spacing: 0.1em;
     font-family: 'Montserrat', sans-serif;
-    z-index: 3;
     text-align: center;
-    background-color: darkred;
+    background-color: black;
     justify-content: center;
 }
 .navbar-nav li a {

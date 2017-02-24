@@ -45,69 +45,88 @@
         <h1>RESTAURANT PETROGRAD</h1>
     </div>
 
+    <!-- FORRETTER -->
     <div class="row">
         <div class="col-lg-12">
-            <!-- Her skal href ind fra nav-bar-->
             <div id=forretter>
-                <!-- Overskrifter -->
                 <h2 class="page-header">FORRETTER</h2>
             </div>
         </div>
     </div>
 
     <div class="container">
+        <!-- <section class="row produktliste"></section> -->
         <section class="row forretter">
 
             <!-- FORRET 1 produkt_template -->
             <template id="produkt_template">
                 <div class="col-xs 6 col-sm-4 col-lg-4">
+                    <!-- BILLEDE -->
                     <img class="data_billede" src="imgs/small/ringbroed-druer-sm.jpg">
-                    <br>
-                    <p class="data_navn">DATA_NAVN</p>
-                    <p class="pris">DKK<span class="data_pris">DATA_PRIS</span>.-</p>
-                    <p class="rabatpris">DKK<span class="data_rabatpris">DATA_RABATPRIS</span>.-</p>
-                    <p class="udsolgttekst">Denne ret er desværre udsolgt</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="modalforret1">LÆS MERE<span class="glyphicon glyphicon-chevron-right"></span></button>
+                    <!-- NAVN -->
+                    <h4 class="data_navn">DATA_NAVN</h4>
+                    <!-- PRIS -->
+                    <h5 class="pris">DKK <span class="data_pris">DATA_PRIS</span> ,-</h5>
+                    <!-- RABATPRIS -->
+                    <h5 class="rabatpris">DKK <span class="data_rabatpris">DATA_RABATPRIS</span> ,-</h5>
+                    <!-- UDSOLGT -->
+                    <h6 class="udsolgttekst">Denne ret er desværre udsolgt</h6>
+                    <!-- KNAP -->
+                    <button data-id="UDSKIFT_mig" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">LÆS MERE<span class="glyphicon glyphicon-chevron-right"></span></button>
                 </div>
             </template>
         </section>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">LUK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOVEDRETTER -->
     <div class="row hovedretter">
         <div class="col-lg-12">
-            <!-- Her skal href ind fra nav-bar-->
             <div id=hovedretter>
-                <!-- Overskrifter -->
                 <h2 class="page-header">HOVEDRETTER</h2>
             </div>
         </div>
     </div>
 
+    <!-- DESSERTER -->
     <div class="row desserter">
         <div class="col-lg-12">
-            <!-- Her skal href ind fra nav-bar-->
             <div id=desserter>
-                <!-- Overskrifter -->
                 <h2 class="page-header">DESSERTER</h2>
             </div>
         </div>
     </div>
 
+    <!-- DRIKKEVARER -->
     <div class="row drikkevarer">
         <div class="col-lg-12">
-            <!-- Her skal href ind fra nav-bar-->
             <div id=drikkevarer>
-                <!-- Overskrifter -->
                 <h2 class="page-header">DRIKKEVARER</h2>
             </div>
         </div>
     </div>
 
+    <!-- SIDE ORDERS -->
     <div class="row sideorders">
         <div class="col-lg-12">
-            <!-- Her skal href ind fra nav-bar-->
             <div id=sideorders>
-                <!-- Overskrifter -->
                 <h2 class="page-header">SIDEORDERS</h2>
             </div>
         </div>
